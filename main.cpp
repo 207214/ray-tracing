@@ -39,7 +39,7 @@ struct vec {
     vec operator-(const vec &op) const { return vec(x-op.x, y-op.y, z-op.z); }
     vec operator*(const vec &op) const { return vec(x*op.x, y*op.y, z*op.z); }
     vec operator*(const float value) const { return vec(x*value, y*value, z*value); }
-    
+
     vec operator-() const { return vec(-x,-y,-z); }
 
     vec operator=(const vec &op) { x = op.x; y = op.y; z = op.z; return *this; }

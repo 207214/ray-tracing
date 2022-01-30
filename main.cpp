@@ -656,7 +656,7 @@ int main(int argc, const char** argv) {
 
     objects.push_back	(sph_1);    
     objects.push_back	(sph_2);
-    objects.push_back	(sph_3);
+//    objects.push_back	(sph_3);
     objects.push_back	(sph_4);
 //    objects.push_back	(sph_5);
     objects.push_back	(left_wall);
